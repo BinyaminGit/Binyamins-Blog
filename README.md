@@ -20,12 +20,12 @@ Give me feedback
 **Note: I learned this technology by self-study through the websites CodeBox and ToCode**
 
 
-'''bash
+```bash
 <Router>
         <Header />
         <Nav />
         <Routes>
           <Route path="/maincontent"
-'''
+```
 
 
