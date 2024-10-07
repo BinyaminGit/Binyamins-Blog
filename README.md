@@ -24,7 +24,6 @@ Give me feedback
 <Router>
         <Header />
         <Nav />
-        {/* <MainContent /> */}
         <Routes>
           <Route path="/maincontent"
 '''
