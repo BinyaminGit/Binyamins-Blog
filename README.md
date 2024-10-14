@@ -7,6 +7,15 @@ On this site you can navigate between the pages and get an impression of the pro
 In the project I used a variety of technologies:
 CSS, JS, React-DOM, Router, grid, flex, Hooks
 
+```bash
+<Router>
+        <Header />
+        <Nav />
+        <Routes>
+          <Route path="/maincontent"
+```
+
+
 
 ### A little about me
 
@@ -29,12 +38,5 @@ In my next projects I plan to build an event manager and chat application and fo
 **Note: I learned this technology by self-study through the websites CodeBox and ToCode**
 
 
-```bash
-<Router>
-        <Header />
-        <Nav />
-        <Routes>
-          <Route path="/maincontent"
-```
 
 
