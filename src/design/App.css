@@ -1,0 +1,141 @@
+/* .App {
+  text-align: center;
+} */
+
+.logo {
+  position: absolute;
+  height: 120px;
+  top: 50px;
+  left: 10%;
+  pointer-events: none;
+  /* padding: 70px; */
+  animation: spin 180s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bgcolor {
+  background-color: rgba(250, 235, 215, 0.081);
+}
+
+.nav1 {
+  display: flex;
+  padding: 10px;
+  align-self: normal;
+  gap: 100px;
+  flex-direction: row;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+h1 {
+  color: rgba(52, 9, 244, 0.81);
+  /*color: #000000 */
+  /* colorhunt.co */
+  text-align: center;
+  /* letter-spacing: 1px; */
+  font-size: 300%;
+}
+
+p {
+  font-size: larger;
+  color: lightslategray;
+  line-height: 30px;
+  /* letter-spacing: 3px; */
+}
+
+h5 {
+  color: rgba(12, rgb(45, 33, 111), blue, alpha);
+  /* אלפא זאת רמת השקיפות של הצבע כאשר הערכים הם בין 0-1 */
+  text-align: center;
+  /* transform: rotate(60deg); */
+}
+
+/************************************* Hyperlink docorations ************************************/
+/* unvisited link */
+a:link {
+  /* לינק ללא קו תחתון */
+  text-decoration: none;
+
+  /* background-color: rgba(48, 29, 117, 0.471); */
+
+  /* עיגול פינות */
+  border-radius: 8px;
+  color: #b1714e;
+
+  transition: font-size 1s;
+}
+
+/* mouse over link
+כאשר העכבר מרחף מעל הלינק */
+a:hover {
+  color: #ff00ff43;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* selected link */
+a:active {
+  color: #0000ff;
+}
+
+.MainStyle {
+  width: 100%;
+}
+
+.accMan {
+  z-index: 12;
+  position: fixed;
+  padding: 2px;
+  right: 85%;
+}
+@media (max-width: 768px) {
+  .nav1 {
+    height: 35px;
+    gap: 20px;
+  }
+  .accMan {
+    right: 92%;
+    transform: translateX(90%);
+  }
+
+  .logo {
+    height: 40px;
+    right: 90%;
+    top: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav1 {
+    gap: 10px;
+  }
+  .logo {
+    height: 30px;
+    right: 95%;
+    top: 40px;
+  }
+}

@@ -1,0 +1,6 @@
+.mountains {
+  background-image: url("mountains.jpg");
+  padding: 10px;
+  border: 5px solid black;
+  height: 190px;
+}

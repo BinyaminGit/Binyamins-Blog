@@ -1,0 +1,18 @@
+.foot-nice {
+  background-color: rgba(48, 29, 117, 0.077);
+  display: flex;
+  padding: 4px;
+  align-self: normal;
+  gap: 80px;
+  flex-direction: row;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .foot-nice {
+    padding: 25px;
+    gap: 15px;
+  }
+}
