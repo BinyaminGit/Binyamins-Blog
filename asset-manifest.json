@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MyBlog/static/css/main.5d4140fe.css",
+    "main.js": "/MyBlog/static/js/main.48299070.js",
+    "static/media/me1.jpg": "/MyBlog/static/media/me1.ac67d2244d8e367f4b72.jpg",
+    "static/media/gamingTable2.jpg": "/MyBlog/static/media/gamingTable2.040cc75fc3a7d14de9ef.jpg",
+    "static/media/logo.png": "/MyBlog/static/media/logo.ed56e64bc5a818f7d317.png",
+    "static/media/gamingTable.jpg": "/MyBlog/static/media/gamingTable.d1989c0265081e2e4c63.jpg",
+    "static/media/Ear1.jpg": "/MyBlog/static/media/Ear1.fc299bd74510ceaa80c5.jpg",
+    "static/media/our_family.jpg": "/MyBlog/static/media/our_family.89456b92f5c124ebd448.jpg",
+    "static/media/ear2.jpg": "/MyBlog/static/media/ear2.a1e7727d90909ffe7e2d.jpg",
+    "static/media/chair1.jpg": "/MyBlog/static/media/chair1.02e7447756f2179a8a83.jpg",
+    "static/media/manulan.jpg": "/MyBlog/static/media/manulan.5a478dd5e74e19978910.jpg",
+    "static/media/falcon1.jpg": "/MyBlog/static/media/falcon1.9fce238c25d8ef919a32.jpg",
+    "static/media/manulan1.png": "/MyBlog/static/media/manulan1.623a8f2d554bcc2b75fe.png",
+    "static/media/mountains.jpg": "/MyBlog/static/media/mountains.4f610906a50f3d7b2288.jpg",
+    "index.html": "/MyBlog/index.html",
+    "main.5d4140fe.css.map": "/MyBlog/static/css/main.5d4140fe.css.map",
+    "main.48299070.js.map": "/MyBlog/static/js/main.48299070.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d4140fe.css",
+    "static/js/main.48299070.js"
+  ]
+}
